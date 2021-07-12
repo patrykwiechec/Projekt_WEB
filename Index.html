@@ -1,0 +1,290 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width; initial-scale=1">
+
+        <link rel="icon" href="Images/favicon.png" type="image/x-icon"/>
+        <title>UseIT Again</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="CSS/style.css" >  
+        <script defer src="Script/Lightbox.js"> </script>
+        <script defer src="Script/Show-more.js"> </script>
+        <script defer src="Script/Hamburger_swap.js"> </script>
+        <script src="Script/Slider.js"> </script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img class="logo" src="images/logo.png"  alt="company logo">
+                <img id="hamburgerfake"  src="images/Hamburger_icon.png" alt="hamburger image">
+                <input class="hamburger"  type="checkbox" onclick="hamburgerswap()">
+                <div class="menu">
+                   <ul>
+                       <li>
+                           <a href="Index.html">
+                               HOME
+                           </a>
+                       </li>
+                       <li>
+                            <a href="#about">
+                                ABOUT
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#products">
+                                PRODUCTS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#process">
+                                PROCESS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#services">
+                                SERVICES
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sponsors">
+                                SPONSORS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                CONTACT
+                            </a>
+                        </li>
+                   </ul> 
+                </div>
+            </nav>              
+        </header>
+        <article>
+            <div class="front-site-img">
+                <h1>Use it again!</h1>
+                <p>
+                    Don't buy untested, overpriced, and low-performance devices. Buy ours - tested, cheap and high-performance! 
+                </p>
+                <a class="ad-button"  href="#popup1">CONTACT US</a>
+             </div>
+             <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>We are not ready yet!</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        To contact us please use our <a href="#contact">contact form</a>
+                    </div>
+                </div>
+            </div>
+             <div class="about-us" id="about">
+                <p>
+                    We are a company with +10 years of experience 
+                in buying back and selling post-lease/used
+                devices such as smartphones, desktops and laptops.
+                Top quality at the lowest price.
+                </p>
+                <h1>
+                    UseITAgain 
+                </h1>
+             </div>
+             <div class="site-skills"  style="background-color: white;">
+                <h1>Professional Skills</h1>
+                <p>Trading 90%</p>
+                <hr>
+                <p>Service 60%</p>
+                <hr>
+                <p>Experience 70%</p>
+                <hr>
+             </div>
+             <div class="blue-panel">
+               <div><img src="images/clock-icon.png" alt="clock"><p>6843<br>Hours of work</p></div>
+                <div><img src="images/$-icon.png" alt="cash"><p>365342<br>Sold products</p></div>
+                <div><img src="images/hammer-icon.png" alt="hammer"><p>76522<br> Repaired items</p></div>
+              <div><img src="images/pencil-icon.png" alt="pencil"><p>455<br> Projects done</p></div>
+             </div>
+             <div class="site-mosaic" id="products">
+                <div class="mosaic">
+                    <img src="images/product1.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic">
+                    <img src="images/product2.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic">
+                    <img src="images/product3.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic">
+                    <img src="images/product4.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic ">
+                    <img src="images/product5.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic">
+                    <img src="images/product6.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic">
+                    <img src="images/product7.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic">
+                    <img src="images/product8.jpg" alt="Example image">  
+                </div>
+                <div class="mosaic mosaic_more">
+                    <img src="images/product9.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic mosaic_more">
+                    <img src="images/product10.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic mosaic_more">
+                    <img src="images/product11.jpg" alt="Example image">  
+                 </div>
+                 <div class="mosaic mosaic_more">
+                    <img src="images/product12.jpg" alt="Example image">  
+                 </div>
+                
+                <button id="showmoreimages" onclick="showmoreless()">LOAD MORE PRODUCTS</button>
+             </div>
+             <div class="site-video" id="process">
+                <h1>Our Work Process</h1>
+                <p>Work is not just a source of income for us. First of all, it is our passion!</p>
+                <video class="onepage_video" controls>
+                    <source src="Video/Project.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+             </div>
+             <div class="site-tiles" id="services">
+                <div class="tile">
+                    <img src="images/tile1.png" alt="tile icon">
+                    <h3>PROFIT</h3>
+                    <p>But not at the expense of the customer!</p> 
+                </div>
+                <div class="tile">
+                    <img src="images/tile2.png"  alt="tile icon">
+                    <h3>HUNTING</h3>
+                    <p>Developers are our prey!</p> 
+                </div>
+                <div class="tile">
+                    <img src="images/tile3.png"  alt="tile icon">
+                    <h3>PHONES</h3>
+                    <p>Best stuff, Android or iOS!</p> 
+                </div>
+                <div class="tile">
+                    <img src="images/tile4.png"  alt="tile icon">
+                    <h3>GAMING</h3>
+                    <p>More FPS, more fun!</p> 
+                </div>
+                <div class="tile">
+                    <img src="images/tile5.png"  alt="tile icon">
+                    <h3>SIMULATORS</h3>
+                    <p>For fun and experience!</p> 
+                </div>
+                <div class="tile">
+                    <img src="images/tile6.png"  alt="tile icon">
+                    <h3>QUALITY</h3>
+                    <p>Almost 20 awards!</p> 
+                </div>
+                <div class="tile">
+                    <img src="images/tile7.png"  alt="tile icon">
+                    <h3>SKILLS</h3>
+                    <p>You call it magic, we call it skill!</p> 
+                </div>
+                <div class="tile">
+                    <img src="images/tile8.png"  alt="tile icon">
+                    <h3>GRAPHIC</h3>
+                    <p>We can design whatever you want!</p> 
+                </div>
+             </div>
+            <div class="site-slider">
+            
+                <div class="w3-content w3-display-container" style="max-width:1920px">
+                    <img class="mySlides" src="Images/Quote1.jpg" style="width:100%"  alt="slider">
+                    <img class="mySlides" src="Images/Quote2.jpg" style="width:100%" alt="slider">
+                   <img class="mySlides" src="Images/Quote3.jpg" style="width:100%" alt="slider">
+                    <div class="w3-center w3-container w3-div w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    </div>
+                  </div>
+                  
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                    }
+                    
+                    function currentDiv(n) {
+                    showDivs(slideIndex = n);
+                    }
+                    
+                    function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("demo");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" w3-white", "");
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " w3-white";
+                    }
+                </script>
+                    
+            </div>
+            <div class="site-sponsors" id="sponsors">
+                <img src="Images/sponsor1.png" alt="sponsor">
+                <img src="Images/sponsor2.png" alt="sponsor">
+                <img src="Images/sponsor3.png" alt="sponsor">
+                <img src="Images/sponsor4.png" alt="sponsor"> 
+            </div>
+            <div class="site-form" id="contact">
+                <form action="mailto:patryk.wiechec0218@gmail.com" method="post" enctype="text/plain">
+                    <input class="form-near" type="text" name="name" value="Your name">
+                    <input class="form-near" type="text" name="mail" value="Your email">
+                    <input class="form-title" type="text" name="mail" value="Your title">
+                    <input class="form-comment" type="text" name="comment" value="Your comment" size="50"><br><br>
+                    <input type="submit" class="submit-button" value="SEND MESSAGE">
+                </form>
+            </div>    
+            <footer>
+                <div>
+                    <p>Patryk Wiecheć nr albumu 13355 </p>
+                    <p>&copy;Designed by education purpose.</p>
+                </div>
+                <div>
+                    <p>example@gmail.com </p>
+                    <p> +48123456789</p>
+                </div>
+                <div>
+                    <p>Project</p>
+                    <p>About</p>
+                    <p>Services</p>
+                    <p>Carreer</p>                  
+                </div>
+                <div>
+                    <p>News</p>
+                    <p>Events</p>
+                    <p>Contact</p>
+                    <p>Legals</p>   
+                </div>
+                <div>
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                    <p>Instagram</p>
+                    <p>Dribbble</p>   
+                </div>
+            </footer>
+
+        </article>
+    </body>
+
+</html>
